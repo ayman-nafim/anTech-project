@@ -8,7 +8,7 @@ body {
     font-family: Montserrat;
 }
 
-.nav-bar {
+.header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -52,9 +52,29 @@ body {
     transition: all ease-in-out .2s;
 }
 
-.nav-bar button:hover {
+.header button:hover {
     font-weight: bold;
     background: #03b4c1;
     color: #012134;
     border-color: #03b4c1;
+}
+
+.container {
+    width: 100%;
+    background: #012134;
+;
+}
+
+.main-content {
+    background-color: #bbfaff;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer {
+    background-color: thistle;
+    min-height: 357px;
+    text-align: center;
 }
